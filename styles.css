@@ -15,6 +15,7 @@
     color: rgba(255, 0, 0, 0.5);
     padding: 2px;
     font-size: 25px;
+    
 }
 .hero__section_input_container .search i{
     color: rgba(128, 128, 128, 0.5);
@@ -23,6 +24,13 @@
     border-left: 2px solid gray;
     
 }
+@media only screen and (max-width:500px){
+    .hero__section_input_container .location i, .hero__section_input_container .search i, .hero__section_input_container .dropdown i{
+        display: none;
+    } 
+}
+
+
 .hero__section_input_container .dropdown i{
     color: black;
     font-size: 20px;
